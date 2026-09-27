@@ -1,0 +1,32 @@
+[
+  {
+    "name": "backend_engineer",
+    "text": "Alex Morgan\nalex.morgan@example.com | (555) 123-4567 | github.com/alexmorgan\nSummary\nBackend engineer focused on Python APIs and applied AI.\nSkills\nPython, FastAPI, PostgreSQL, Docker, Redis, Git\nExperience\nSoftware Engineer - Acme Corp (2021 - 2024)\n- Built REST APIs using FastAPI serving 10k requests per day\n- Reduced query latency by 40% by tuning PostgreSQL indexes\nEducation\nB.S. Computer Science, State University (2017 - 2021)",
+    "expected": {
+      "email": "alex.morgan@example.com",
+      "phone_present": true,
+      "sections": ["summary", "skills", "experience", "education"],
+      "skills_include": ["python", "fastapi", "postgresql", "docker", "redis", "git"]
+    }
+  },
+  {
+    "name": "frontend_developer",
+    "text": "Jamie Lee\njamie.lee@example.net\nProfile\nFrontend developer who loves accessible interfaces.\nTechnical Skills\nJavaScript, TypeScript, React, Next.js, Tailwind CSS\nWork Experience\nFrontend Developer - Pixel Studio (2022 - present)\n- Developed a component library used across 4 products\nProjects\nPortfolio site\n- Built with Next.js and Tailwind CSS\nEducation\nB.A. Design, City College (2018 - 2022)",
+    "expected": {
+      "email": "jamie.lee@example.net",
+      "phone_present": false,
+      "sections": ["summary", "skills", "experience", "projects", "education"],
+      "skills_include": ["javascript", "typescript", "react", "next.js", "tailwind css"]
+    }
+  },
+  {
+    "name": "ml_engineer",
+    "text": "Riley Chen\nriley.chen@example.org | +1 415 555 0100\nSummary\nMachine learning engineer working on NLP systems.\nSkills\nPython, PyTorch, scikit-learn, NLP, Hugging Face, SQL\nExperience\nML Engineer - DataWorks (2020 - 2023)\n- Implemented NLP pipelines processing 1M documents monthly\n- Deployed models with Docker on AWS\nCertifications\nTensorFlow Developer Certificate\nEducation\nM.S. Computer Science, Tech University (2018 - 2020)",
+    "expected": {
+      "email": "riley.chen@example.org",
+      "phone_present": true,
+      "sections": ["summary", "skills", "experience", "certifications", "education"],
+      "skills_include": ["python", "pytorch", "scikit-learn", "nlp", "hugging face", "sql"]
+    }
+  }
+]

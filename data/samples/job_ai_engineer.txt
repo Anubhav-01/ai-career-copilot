@@ -1,0 +1,22 @@
+AI Engineer — Nimbus Labs (Hybrid, Berlin)
+
+Nimbus Labs builds AI-assisted productivity tools. We are looking for an AI
+Engineer to develop our retrieval and generation pipelines.
+
+What you'll do:
+- Build and evaluate RAG pipelines over customer documents
+- Develop semantic search with vector embeddings and pgvector
+- Integrate LLM providers behind clean abstractions with cost controls
+- Ship features end-to-end with our product engineers
+
+Requirements:
+- Strong Python engineering skills
+- Experience with LLMs, embeddings and semantic search
+- Experience with PostgreSQL; pgvector a strong plus
+- Solid understanding of NLP fundamentals
+- 2+ years of software engineering experience
+
+Preferred:
+- Experience with sentence-transformers or Hugging Face models
+- FastAPI experience
+- Experience designing evaluation frameworks for AI systems

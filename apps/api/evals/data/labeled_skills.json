@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Built REST APIs with FastAPI and PostgreSQL, deployed via Docker and GitHub Actions.",
+    "expected": ["fastapi", "postgresql", "docker", "ci/cd", "rest apis"]
+  },
+  {
+    "text": "Frontend work in React and TypeScript with Tailwind CSS; state managed with Redux.",
+    "expected": ["react", "typescript", "tailwind css", "redux"]
+  },
+  {
+    "text": "Trained models with PyTorch and scikit-learn; embeddings via sentence-transformers for semantic search.",
+    "expected": ["pytorch", "scikit-learn", "embeddings", "vector search"]
+  },
+  {
+    "text": "A reactive person has gone away to a java island for espresso.",
+    "expected": ["java"]
+  },
+  {
+    "text": "Languages: Python, Go, C++, C#, and SQL. Comfortable on Linux with Bash.",
+    "expected": ["python", "go", "c++", "c#", "sql", "linux", "bash"]
+  },
+  {
+    "text": "Orchestrated Kubernetes clusters on AWS with Terraform; monitored via Prometheus and Grafana.",
+    "expected": ["kubernetes", "aws", "terraform", "monitoring"]
+  },
+  {
+    "text": "Wrote unit tests with pytest and end-to-end tests with Playwright in CI.",
+    "expected": ["pytest", "e2e testing", "unit testing"]
+  },
+  {
+    "text": "Improved retrieval-augmented generation quality using LangChain and pgvector on Postgres.",
+    "expected": ["rag", "langchain", "pgvector", "postgresql"]
+  },
+  {
+    "text": "This paragraph mentions no technology at all, only teamwork and communication.",
+    "expected": []
+  },
+  {
+    "text": "Migrated a Django monolith to Node.js microservices communicating over Kafka and gRPC.",
+    "expected": ["django", "node.js", "microservices", "kafka", "grpc"]
+  }
+]

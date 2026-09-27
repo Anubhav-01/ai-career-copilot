@@ -1,0 +1,22 @@
+Backend Engineer — TechCo (Remote)
+
+We are hiring a Backend Engineer to join our platform team and build the
+services that power our product.
+
+Responsibilities:
+- Design and build REST APIs in Python
+- Operate PostgreSQL databases in production
+- Ship containerized services and own their reliability
+- Collaborate with frontend and ML teams on new features
+
+Requirements:
+- 2+ years of professional software engineering experience
+- Strong Python skills and experience with FastAPI or Django
+- Solid PostgreSQL knowledge and SQL fundamentals
+- Experience with Docker and CI/CD pipelines
+- Bachelor degree in Computer Science or equivalent practical experience
+
+Nice to have:
+- Kubernetes and Terraform experience
+- Familiarity with Redis and message queues
+- Exposure to machine learning workflows
