@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = ["alembic/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+ignore = [
+    "B008",  # FastAPI Depends() in defaults is idiomatic
+    "E501",  # long lines allowed where readability wins (prompts, messages)
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

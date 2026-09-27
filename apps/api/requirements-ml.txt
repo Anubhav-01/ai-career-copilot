@@ -1,0 +1,5 @@
+# Optional ML dependencies. The API degrades gracefully without them:
+#  - embeddings fall back to a deterministic hashing encoder
+#  - NER-assisted parsing falls back to rule-based extraction
+sentence-transformers>=3.0,<4
+spacy>=3.7,<4

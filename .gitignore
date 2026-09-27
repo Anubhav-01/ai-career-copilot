@@ -1,0 +1,43 @@
+# Environments / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+.npm/
+
+# Uploads / local data
+apps/api/uploads/
+*.sqlite
+*.db
+
+# ML model caches
+.model-cache/
+sentence_transformers/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
