@@ -57,6 +57,10 @@ class InterviewQuestion(Base):
         back_populates="question", uselist=False, cascade="all, delete-orphan"
     )
 
+    @property
+    def answered(self) -> bool:
+        return self.answer is not None
+
 
 class InterviewAnswer(Base):
     __tablename__ = "interview_answers"

@@ -46,6 +46,7 @@ class InterviewQuestionOut(BaseModel):
     difficulty: str
     question: str
     grounding: str | None = None
+    answered: bool = False
 
 
 class AnswerRequest(BaseModel):
