@@ -2,6 +2,9 @@
 
 > Your AI-powered personal career assistant.
 
+**🔴 Live demo:** <https://web-production-41ed7.up.railway.app>
+&nbsp;·&nbsp; API: <https://api-production-3cc8.up.railway.app/docs>
+
 A production-style, full-stack AI application that unifies the entire job-search
 workflow: resume analysis, ATS-style checks, semantic job matching, skill-gap
 analysis, learning roadmaps, AI resume improvement, mock interviews and
